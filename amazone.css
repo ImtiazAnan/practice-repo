@@ -1,0 +1,123 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+.all {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+    margin-left: 40%;
+    display: inline-block;
+    background-color: #151246;
+    color: yellow;
+    padding: 10px 25px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    background-color: #151246;
+
+
+}
+
+#ama-logo {
+    width: 100px;
+}
+
+#search {
+    width: 800px;
+    height: 30px;
+    border: none;
+    color: grey;
+    border-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 25px;
+}
+
+.seaech-box {
+    margin-right: 130px;
+
+}
+
+#btn {
+    margin-right: -50px;
+    border: none;
+    padding: 4px 10px;
+    height: 30px;
+    background-color: rgb(255, 179, 0);
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+#your {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.cart {
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #edededff;
+    box-shadow: 0 32px 24px rgba(0, 0, 0, .3);
+}
+
+.shoe-img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.btn1 {
+    border: none;
+    background-color: orange;
+    width: 100%;
+    padding: 10px 0;
+    transition: .8s ease;
+
+}
+
+.name {
+    margin-bottom: 25px;
+}
+.btn1:hover{
+    background-color: orangered;
+    color: white;
+}
